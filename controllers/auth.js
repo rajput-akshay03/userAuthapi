@@ -10,7 +10,7 @@ exports.signup = async(req,res)=>{
              {
                 return res.status(400).json({
                     success:false,
-                    messeage:"user already exist",
+                    messeage:"user already exists",
                 });
              }
              let hashpassword;
